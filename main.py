@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
-app.secret_key = os.getenv("SECRET_KEY", "your_secret_key")
+app.secret_key = os.getenv("SECRET_KEY", "f1d3a2c5b8e7d0a4f9b1c62d3f8ea45b918a1bcd23ff0e87a4bd7c65a8dc1ea2")
 
 # Logger Setup
 logging.basicConfig(level=logging.INFO)
